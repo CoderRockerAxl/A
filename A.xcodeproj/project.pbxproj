@@ -13,6 +13,8 @@
 		BB60FCB621A5326B00ED5956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB60FCB521A5326B00ED5956 /* Assets.xcassets */; };
 		BB60FCB921A5326B00ED5956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB60FCB721A5326B00ED5956 /* LaunchScreen.storyboard */; };
 		BB60FCBC21A5326B00ED5956 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB60FCBB21A5326B00ED5956 /* main.m */; };
+		BB60FCEB21A546B200ED5956 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = BB60FCEA21A546B200ED5956 /* Target_A.m */; };
+		BB60FCEF21A546EE00ED5956 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB60FCED21A546EE00ED5956 /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		BB60FCB821A5326B00ED5956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB60FCBA21A5326B00ED5956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB60FCBB21A5326B00ED5956 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB60FCE921A546B200ED5956 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		BB60FCEA21A546B200ED5956 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		BB60FCED21A546EE00ED5956 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		BB60FCEE21A546EE00ED5956 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		BB60FCAB21A5326B00ED5956 /* A */ = {
 			isa = PBXGroup;
 			children = (
+				BB60FCEC21A546EE00ED5956 /* A */,
+				BB60FCE821A5469300ED5956 /* Targets */,
 				BB60FCAC21A5326B00ED5956 /* AppDelegate.h */,
 				BB60FCAD21A5326B00ED5956 /* AppDelegate.m */,
 				BB60FCAF21A5326B00ED5956 /* ViewController.h */,
@@ -67,6 +75,24 @@
 				BB60FCB721A5326B00ED5956 /* LaunchScreen.storyboard */,
 				BB60FCBA21A5326B00ED5956 /* Info.plist */,
 				BB60FCBB21A5326B00ED5956 /* main.m */,
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
+		BB60FCE821A5469300ED5956 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				BB60FCE921A546B200ED5956 /* Target_A.h */,
+				BB60FCEA21A546B200ED5956 /* Target_A.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		BB60FCEC21A546EE00ED5956 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				BB60FCED21A546EE00ED5956 /* AViewController.m */,
+				BB60FCEE21A546EE00ED5956 /* AViewController.h */,
 			);
 			path = A;
 			sourceTree = "<group>";
@@ -141,6 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB60FCEB21A546B200ED5956 /* Target_A.m in Sources */,
+				BB60FCEF21A546EE00ED5956 /* AViewController.m in Sources */,
 				BB60FCB121A5326B00ED5956 /* ViewController.m in Sources */,
 				BB60FCBC21A5326B00ED5956 /* main.m in Sources */,
 				BB60FCAE21A5326B00ED5956 /* AppDelegate.m in Sources */,
